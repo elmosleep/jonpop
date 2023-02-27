@@ -1,5 +1,7 @@
 <?php
 
+$test;
+
 require_once("db_summary.php");
 require_once("config.php");
 
