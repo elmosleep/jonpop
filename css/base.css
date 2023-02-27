@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+}
+
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*--- ページ基本デザイン ---*/
+
+/* 全共通 */
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+#header{
+	width: 1000px;
+	height: 130px;
+	border-bottom: 4px solid #919191;
+	display: flex;
+}
+#logo{
+	float: left;
+}
+#logo img{
+	height: 126px;
+}
+#menu{
+	float: right;
+}
+#menu ul{
+	height: 50px;
+	margin-top: 50px;
+}
+#menu li{
+	float: left;
+	padding: 10px;
+}
+#menu li a{
+	color: #666;
+}
+#footer{
+	width: 1000px;
+	margin-top: 50px;
+	border-top: 4px solid #919191;
+}
+#footer p{
+	text-align: right;
+	color: #333;
+	font-size: 15px;
+}
+/* ここまで */
+
+
+/* その他 */
+
+#main{
+	margin: 0 auto;
+	padding: 40px;
+}
+h1{
+  color: #29ace2;
+  font-size: 40px;
+  margin: 20px 0 20px 20px;
+}
+h2{
+	width:800px;
+	margin: 0 auto;
+	padding: 10px 30px;
+	border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+	background-color: #eaeaea;
+}
+#text{
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+.red{
+	font-size: 14px;
+  color: #f55;
+}
+.blue{
+	font-size: 14px;
+  color: #00f;
+}
+#map{
+	width: 980px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #eeffff;
+}
+#map iframe{
+	width: 100%;
+}
+#call_form table{
+	width: 780px;
+	margin: 0 auto;
+}
+#call_form table tr{
+	height: 40px;
+}
+#call_form table tr td{
+	padding-left: 20px;
+	height: 40px;
+	text-align: center;
+}
+#call_form table tr td input[type="text"]{
+	line-height: 24px;
+	width: 90%;
+}
+#call_form table tr th{
+	text-align: center;
+	width: 200px;
+}
+#call_form table td textarea{
+	line-height: 150px;
+	width: 100%;
+	margin-top: 30px;
+}
+#btn{
+	margin: 0 auto;
+}
